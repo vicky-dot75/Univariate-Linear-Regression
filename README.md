@@ -26,7 +26,7 @@ Y = np.array(eval(input()))
 
 Xmean = np.mean(X)
 Ymean = np.mean(Y)
-num,den = 0,0
+num,den = 0,0 
 for i in range(len(X)):
     num += (X[i]-Xmean)*(Y[i]-Ymean)
     den += (X[i]-Xmean)**2
